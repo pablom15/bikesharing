@@ -12,7 +12,7 @@ In order to determine how New York Citi Bike data correlates to the potential bi
 
 The full analysis that is described below can be found by following the available link:
 
-    [link to dashboard](https://public.tableau.com/profile/pablo.maldonado4500#!/vizhome/CitiBikeChallenge_15992487373760/ChallengeStory?publish=yes)
+[link to dashboard](https://public.tableau.com/profile/pablo.maldonado4500#!/vizhome/CitiBikeChallenge_15992487373760/ChallengeStory?publish=yes)
 
 ### Analysis Procedure and Results
 
