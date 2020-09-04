@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20203.20.0801.1333                               -->
-<workbook original-version='18.1' source-build='2020.3.0 (20203.20.0801.1333)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2020.3.0 (20203.20.0801.1333)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <MapboxVectorStylesAndLayers />
@@ -16,6 +16,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='CitiBikeChallenge_15992487373760' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -25,10 +26,10 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='ia_mcdonalds' name='textscan.17fsvpz0ctwu8n0zzuqib1vcagot'>
-            <connection class='textscan' directory='/Users/pablomaldonado/Desktop/UTDataAnalyticsProgram/Module 14/bikesharing' filename='ia_mcdonalds.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/pablomaldonado/Desktop/UTDataAnalyticsProgram/Module 14/bikesharing' filename='ia_mcdonalds.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='ny_mcdonalds' name='textscan.109b8lo19z7o0z1fyefk112efipl'>
-            <connection class='textscan' directory='/Users/pablomaldonado/Desktop/UTDataAnalyticsProgram/Module 14/bikesharing' filename='ny_mcdonalds.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/pablomaldonado/Desktop/UTDataAnalyticsProgram/Module 14/bikesharing' filename='ny_mcdonalds.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='full' type='join'>
@@ -387,7 +388,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>street_address1</remote-name>
@@ -402,7 +402,6 @@
               <approx-count>21</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>city1</remote-name>
@@ -417,7 +416,6 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>state1</remote-name>
@@ -432,7 +430,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>zipcode1</remote-name>
@@ -446,7 +443,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>17</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>latitude1</remote-name>
@@ -460,7 +456,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>21</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>longitude1</remote-name>
@@ -474,7 +469,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>21</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>store_name</remote-name>
@@ -489,7 +483,6 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>street_address</remote-name>
@@ -504,7 +497,6 @@
               <approx-count>27</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>city</remote-name>
@@ -519,7 +511,6 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>state</remote-name>
@@ -534,7 +525,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>zipcode</remote-name>
@@ -548,7 +538,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>21</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>latitude</remote-name>
@@ -562,7 +551,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>27</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>longitude</remote-name>
@@ -576,7 +564,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>26</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ia_mcdonalds.csv_4F79C202131443E38B55B66B612A6CAB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -631,7 +618,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='201908-citibike-tripdata' name='textscan.0lljcti1688y4d1bdrprr06xd1ox'>
-            <connection class='textscan' directory='/Users/pablomaldonado/Desktop/UTDataAnalyticsProgram/Module 14/bikesharing' filename='201908-citibike-tripdata.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/pablomaldonado/Desktop/UTDataAnalyticsProgram/Module 14/bikesharing' filename='201908-citibike-tripdata.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0lljcti1688y4d1bdrprr06xd1ox' name='201908-citibike-tripdata.csv' table='[201908-citibike-tripdata#csv]' type='table'>
@@ -2420,8 +2407,8 @@
                       <worksheet name='IA McDonalds Locations'>
                         <style delta-type='added'>
                           <style-rule element='axis'>
-                            <encoding attr='space' class='0' field='[federated.1px61931vm4z3i0zwyes41p63uml].[none:latitude:qk]' field-type='quantitative' max='5112940.2311199242' min='5081846.6754726395' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
-                            <encoding attr='space' class='0' field='[federated.1px61931vm4z3i0zwyes41p63uml].[none:longitude:qk]' field-type='quantitative' max='-10400047.077067161' min='-10438397.095655585' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                            <encoding attr='space' class='0' field='[federated.1px61931vm4z3i0zwyes41p63uml].[none:latitude:qk]' field-type='quantitative' max='5116703.7151497966' min='5079334.0107722552' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.1px61931vm4z3i0zwyes41p63uml].[none:longitude:qk]' field-type='quantitative' max='-10395104.79541406' min='-10441195.659829168' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
                           </style-rule>
                         </style>
                         <selection-collection>
@@ -2642,7 +2629,7 @@
             <run>Why don&apos;t we start with the two most central McDonalds to kickstart our bike-sharing trial?</run>
           </formatted-text>
         </zone>
-        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='14315' hidden='true' id='14' story-point-id='11' w='45079' x='25295' y='29772'>
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' flipboard-zone-id='5' forceUpdate='true' h='14315' hidden='true' id='14' story-point-id='11' w='45079' x='24803' y='23133'>
           <formatted-text>
             <run>These two locations would be a great start for our bike-sharing program trial. Similar to NY, this central area with a high density of McDonalds is most likely where the majority of people travel to and the best opportunity for business.</run>
           </formatted-text>
@@ -2725,8 +2712,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='24' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='23' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='34' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='33' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='8625' id='10' name='Top Starting Locations' param='[federated.1qwqnct0igrnpn1dbfw4g1aa52o9].[__tableau_internal_object_id__].[cnt:201908-citibike-tripdata.csv_1BA1E62FDAE7481AA9D2059BA87A5A68:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2804,8 +2791,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1050' minheight='1050' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='23' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='22' param='vert' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='33' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='32' param='vert' w='98400' x='800' y='1000'>
                 <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' h='3750' id='3' w='14200' x='0' y='0'>
                   <formatted-text>
                     <run>NYC Citi Bike Dashboard</run>
@@ -3202,7 +3189,7 @@
     </window>
     <window class='dashboard' name='Story 1'>
       <viewpoints />
-      <active id='5' />
+      <active id='-1' />
       <simple-id uuid='{43B7AAFF-57AE-48B0-9339-95614A9C9F5B}' />
     </window>
     <window class='worksheet' name='IA McDonalds Locations'>
@@ -3291,7 +3278,7 @@
     </window>
     <window class='dashboard' maximized='true' name='Challenge Story'>
       <viewpoints />
-      <active id='-1' />
+      <active id='4' />
       <simple-id uuid='{0B9FDD27-0B57-4B50-A787-E94728E5AB41}' />
     </window>
   </windows>
